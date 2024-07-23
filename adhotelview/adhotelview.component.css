@@ -1,0 +1,28 @@
+
+
+.modal {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    max-height: 80vh; 
+
+}
+label{
+    margin-left:150px;
+    margin-top: 20px;
+}
+
+.modal h2 {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table,th, td{
+    border:2px solid #131212ee;
+    padding:20px;
+}
+
+

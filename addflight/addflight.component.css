@@ -1,0 +1,89 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    max-height: 80vh; 
+    overflow-y: auto; 
+    position: relative; 
+    width: 50%;
+}
+label{
+    margin-left:150px;
+    margin-top: 20px;
+}
+
+.modal h2 {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal input[type="text"], .modal input[type="number"]{
+    margin-top: 15px;
+}
+
+.upbtn,.delbtn{
+    color:#fff;
+    font-weight: 900;
+    background-color: #12022a;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.upbtn{
+    margin-left: 195px;
+}
+
+.delbtn{
+    margin-left: 50px;
+}
+
+#tnum{
+    margin-left: 76px;
+}
+
+#name{
+    margin-left: 90px;
+}
+
+#code{
+    margin-left: 94px;
+}
+
+#dept{
+    margin-left: 17px;
+}
+
+#arr{
+    margin-left: 33px;
+}
+
+#hour{
+    margin-left: 45px;
+}
+
+#price, #seats{
+    margin-left: 96px;
+}
+
+
+
+
+
+

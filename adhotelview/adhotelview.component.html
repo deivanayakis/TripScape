@@ -1,0 +1,27 @@
+<div class="modal-container">
+    <div class="modal">
+        <h2>Hotel Booking Details</h2>
+        <table>
+            <tr>
+                <th>Mail</th>
+                <th>Rooms Booked</th>
+                <th>Check In</th>
+                <th>Check Out</th>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Price</th>
+            </tr>
+            <div *ngFor="let hotelb of hotelBDetails">
+                <tr>
+                    <td>{{hotelb.mail}}</td>
+                    <td>{{hotelb.rb}}</td>
+                    <td>{{hotelb.cin}}</td>
+                    <td>{{hotelb.cout}}</td>
+                    <td>{{hotelb.name}}</td>
+                    <td>{{hotelb.location}}</td>
+                    <td>{{hotelb.price}}</td>
+                </tr>
+            </div>
+        </table>
+    </div>
+</div>
